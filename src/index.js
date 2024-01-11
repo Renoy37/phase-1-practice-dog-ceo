@@ -34,8 +34,6 @@ function displayDogBreeds(filterUsingLetters) {
       const breeds = data.message;
 
       const dogBreeders = document.getElementById("dog-breeds");
-      // Clear previous breed list
-      dogBreeders.innerHTML = "";
 
       // Iterate over the breeds and creating li elements for each
       for (const breed in breeds) {
